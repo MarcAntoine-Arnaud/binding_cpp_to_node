@@ -12,6 +12,8 @@ addons:
     - nodejs
 
 script:
+  - swig -version
+  - swig -help
   - npm install -g node-gyp
   - swig -c++ -javascript -node -DV8_VERSION=0x040300 example.i
 
