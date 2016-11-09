@@ -9,7 +9,7 @@ addons:
     - make
     - g++
     - swig
-    - swig3
+    - swig3.0
     - nodejs
 
 script:
