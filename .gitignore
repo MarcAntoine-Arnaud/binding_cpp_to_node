@@ -1,0 +1,4 @@
+build
+example.o
+example_wrap.cxx
+libexample.so
