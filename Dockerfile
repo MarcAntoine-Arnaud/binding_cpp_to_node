@@ -4,7 +4,7 @@ ADD . /src
 
 WORKDIR /src
 
-RUN apk add --update cmake make nodejs swig g++
+RUN apk add --update cmake make nodejs nodejs-dev swig g++
 RUN npm install -g node-gyp
 
 RUN swig -c++ -javascript -node -DV8_VERSION=0x040300 example.i
