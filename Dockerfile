@@ -17,3 +17,5 @@ RUN node-gyp configure
 RUN node-gyp build
 
 RUN node main.js
+
+CMD node /src/main.js
